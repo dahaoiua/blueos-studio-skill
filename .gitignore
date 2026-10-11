@@ -1,0 +1,26 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 工具输出
+out/
+logs/
+*.log
+*.tmp
+
+# BlueOS 工程调试产物（若在本仓库内进行调试）
+build/
+.autorun/result/
+.ide/settings.json
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
